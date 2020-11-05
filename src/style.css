@@ -1,0 +1,34 @@
+html {
+  font-size: 5vmin;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Russo One', sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+.layer__start-screen {
+  position: absolute;
+  z-index: 10;
+  background-color: red;
+}
+
+.layer__start-screen .logo {
+  font-family: 'Saira', sans-serif;
+  letter-spacing: 3rem;
+  text-align: center;
+}
+
+.layer__start-screen .wrapper {
+  align-items: center;
+}
+
+.layer__start-screen .wrapper .ready__button {
+  background-color: blue;
+}
